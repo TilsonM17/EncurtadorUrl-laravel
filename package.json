@@ -1,14 +1,20 @@
 {
     "private": true,
+    "dependencies": {
+        "@vitejs/plugin-vue": "^3.0.0",
+        "axios": "^0.27.2",
+        "vue": "^3.2.36",
+        "vue-loader": "^17.0.0"
+    },
     "scripts": {
         "dev": "vite",
         "build": "vite build"
     },
     "devDependencies": {
-        "axios": "^0.25",
-        "laravel-vite-plugin": "^0.4.0",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
-        "vite": "^2.9.11"
+        "autoprefixer": "^10.4.7",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.6",
+        "vite": "^3.0.0",
+        "vite-plugin-laravel": "^0.2.0-beta.27"
     }
 }
