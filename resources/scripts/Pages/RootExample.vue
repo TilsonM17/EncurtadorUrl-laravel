@@ -24,7 +24,7 @@
         <p class = "h4 text-center text-success">{{txt}}</p>
         <p class = "h4 text-center text-danger">{{erro}}</p>
         <p class="h4 text-center text-success">
-        <i class="fa fa-smile-o" aria-hidden="true"></i>    <a :href="link">{{ link }}</a>
+       <a target="_blank" :href="link">{{ link }}</a>
         </p>
       </div>
     </div>
